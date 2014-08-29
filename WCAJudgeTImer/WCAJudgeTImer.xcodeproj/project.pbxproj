@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1535D919B1235400D0FE18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1535D819B1235400D0FE18 /* Foundation.framework */; };
+		AD1535DB19B1235400D0FE18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1535DA19B1235400D0FE18 /* CoreGraphics.framework */; };
+		AD1535DD19B1235400D0FE18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1535DC19B1235400D0FE18 /* UIKit.framework */; };
+		AD1535E319B1235400D0FE18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD1535E119B1235400D0FE18 /* InfoPlist.strings */; };
+		AD1535E519B1235400D0FE18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1535E419B1235400D0FE18 /* main.m */; };
+		AD1535E919B1235400D0FE18 /* WCAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1535E819B1235400D0FE18 /* WCAAppDelegate.m */; };
+		AD1535EC19B1235400D0FE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1535EA19B1235400D0FE18 /* Main.storyboard */; };
+		AD1535EF19B1235400D0FE18 /* WCAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1535EE19B1235400D0FE18 /* WCAViewController.m */; };
+		AD1535F119B1235400D0FE18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1535F019B1235400D0FE18 /* Images.xcassets */; };
+		AD1535F819B1235400D0FE18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1535F719B1235400D0FE18 /* XCTest.framework */; };
+		AD1535F919B1235400D0FE18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1535D819B1235400D0FE18 /* Foundation.framework */; };
+		AD1535FA19B1235400D0FE18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1535DC19B1235400D0FE18 /* UIKit.framework */; };
+		AD15360219B1235400D0FE18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD15360019B1235400D0FE18 /* InfoPlist.strings */; };
+		AD15360419B1235400D0FE18 /* WCAJudgeTImerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD15360319B1235400D0FE18 /* WCAJudgeTImerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1535FB19B1235400D0FE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1535CD19B1235400D0FE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1535D419B1235400D0FE18;
+			remoteInfo = WCAJudgeTImer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1535D519B1235400D0FE18 /* WCAJudgeTImer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCAJudgeTImer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1535D819B1235400D0FE18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD1535DA19B1235400D0FE18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD1535DC19B1235400D0FE18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD1535E019B1235400D0FE18 /* WCAJudgeTImer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WCAJudgeTImer-Info.plist"; sourceTree = "<group>"; };
+		AD1535E219B1235400D0FE18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD1535E419B1235400D0FE18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD1535E619B1235400D0FE18 /* WCAJudgeTImer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCAJudgeTImer-Prefix.pch"; sourceTree = "<group>"; };
+		AD1535E719B1235400D0FE18 /* WCAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAAppDelegate.h; sourceTree = "<group>"; };
+		AD1535E819B1235400D0FE18 /* WCAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAAppDelegate.m; sourceTree = "<group>"; };
+		AD1535EB19B1235400D0FE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1535ED19B1235400D0FE18 /* WCAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAViewController.h; sourceTree = "<group>"; };
+		AD1535EE19B1235400D0FE18 /* WCAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAViewController.m; sourceTree = "<group>"; };
+		AD1535F019B1235400D0FE18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD1535F619B1235400D0FE18 /* WCAJudgeTImerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCAJudgeTImerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1535F719B1235400D0FE18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD1535FF19B1235400D0FE18 /* WCAJudgeTImerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WCAJudgeTImerTests-Info.plist"; sourceTree = "<group>"; };
+		AD15360119B1235400D0FE18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD15360319B1235400D0FE18 /* WCAJudgeTImerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAJudgeTImerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1535D219B1235400D0FE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1535DB19B1235400D0FE18 /* CoreGraphics.framework in Frameworks */,
+				AD1535DD19B1235400D0FE18 /* UIKit.framework in Frameworks */,
+				AD1535D919B1235400D0FE18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1535F319B1235400D0FE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1535F819B1235400D0FE18 /* XCTest.framework in Frameworks */,
+				AD1535FA19B1235400D0FE18 /* UIKit.framework in Frameworks */,
+				AD1535F919B1235400D0FE18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1535CC19B1235400D0FE18 = {
+			isa = PBXGroup;
+			children = (
+				AD1535DE19B1235400D0FE18 /* WCAJudgeTImer */,
+				AD1535FD19B1235400D0FE18 /* WCAJudgeTImerTests */,
+				AD1535D719B1235400D0FE18 /* Frameworks */,
+				AD1535D619B1235400D0FE18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1535D619B1235400D0FE18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1535D519B1235400D0FE18 /* WCAJudgeTImer.app */,
+				AD1535F619B1235400D0FE18 /* WCAJudgeTImerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1535D719B1235400D0FE18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD1535D819B1235400D0FE18 /* Foundation.framework */,
+				AD1535DA19B1235400D0FE18 /* CoreGraphics.framework */,
+				AD1535DC19B1235400D0FE18 /* UIKit.framework */,
+				AD1535F719B1235400D0FE18 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD1535DE19B1235400D0FE18 /* WCAJudgeTImer */ = {
+			isa = PBXGroup;
+			children = (
+				AD1535E719B1235400D0FE18 /* WCAAppDelegate.h */,
+				AD1535E819B1235400D0FE18 /* WCAAppDelegate.m */,
+				AD1535EA19B1235400D0FE18 /* Main.storyboard */,
+				AD1535ED19B1235400D0FE18 /* WCAViewController.h */,
+				AD1535EE19B1235400D0FE18 /* WCAViewController.m */,
+				AD1535F019B1235400D0FE18 /* Images.xcassets */,
+				AD1535DF19B1235400D0FE18 /* Supporting Files */,
+			);
+			path = WCAJudgeTImer;
+			sourceTree = "<group>";
+		};
+		AD1535DF19B1235400D0FE18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD1535E019B1235400D0FE18 /* WCAJudgeTImer-Info.plist */,
+				AD1535E119B1235400D0FE18 /* InfoPlist.strings */,
+				AD1535E419B1235400D0FE18 /* main.m */,
+				AD1535E619B1235400D0FE18 /* WCAJudgeTImer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD1535FD19B1235400D0FE18 /* WCAJudgeTImerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD15360319B1235400D0FE18 /* WCAJudgeTImerTests.m */,
+				AD1535FE19B1235400D0FE18 /* Supporting Files */,
+			);
+			path = WCAJudgeTImerTests;
+			sourceTree = "<group>";
+		};
+		AD1535FE19B1235400D0FE18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD1535FF19B1235400D0FE18 /* WCAJudgeTImerTests-Info.plist */,
+				AD15360019B1235400D0FE18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1535D419B1235400D0FE18 /* WCAJudgeTImer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD15360719B1235400D0FE18 /* Build configuration list for PBXNativeTarget "WCAJudgeTImer" */;
+			buildPhases = (
+				AD1535D119B1235400D0FE18 /* Sources */,
+				AD1535D219B1235400D0FE18 /* Frameworks */,
+				AD1535D319B1235400D0FE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCAJudgeTImer;
+			productName = WCAJudgeTImer;
+			productReference = AD1535D519B1235400D0FE18 /* WCAJudgeTImer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1535F519B1235400D0FE18 /* WCAJudgeTImerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD15360A19B1235400D0FE18 /* Build configuration list for PBXNativeTarget "WCAJudgeTImerTests" */;
+			buildPhases = (
+				AD1535F219B1235400D0FE18 /* Sources */,
+				AD1535F319B1235400D0FE18 /* Frameworks */,
+				AD1535F419B1235400D0FE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1535FC19B1235400D0FE18 /* PBXTargetDependency */,
+			);
+			name = WCAJudgeTImerTests;
+			productName = WCAJudgeTImerTests;
+			productReference = AD1535F619B1235400D0FE18 /* WCAJudgeTImerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1535CD19B1235400D0FE18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WCA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Weston Mizumoto";
+				TargetAttributes = {
+					AD1535F519B1235400D0FE18 = {
+						TestTargetID = AD1535D419B1235400D0FE18;
+					};
+				};
+			};
+			buildConfigurationList = AD1535D019B1235400D0FE18 /* Build configuration list for PBXProject "WCAJudgeTImer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1535CC19B1235400D0FE18;
+			productRefGroup = AD1535D619B1235400D0FE18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1535D419B1235400D0FE18 /* WCAJudgeTImer */,
+				AD1535F519B1235400D0FE18 /* WCAJudgeTImerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1535D319B1235400D0FE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1535F119B1235400D0FE18 /* Images.xcassets in Resources */,
+				AD1535E319B1235400D0FE18 /* InfoPlist.strings in Resources */,
+				AD1535EC19B1235400D0FE18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1535F419B1235400D0FE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15360219B1235400D0FE18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1535D119B1235400D0FE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1535E919B1235400D0FE18 /* WCAAppDelegate.m in Sources */,
+				AD1535E519B1235400D0FE18 /* main.m in Sources */,
+				AD1535EF19B1235400D0FE18 /* WCAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1535F219B1235400D0FE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15360419B1235400D0FE18 /* WCAJudgeTImerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1535FC19B1235400D0FE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1535D419B1235400D0FE18 /* WCAJudgeTImer */;
+			targetProxy = AD1535FB19B1235400D0FE18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1535E119B1235400D0FE18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1535E219B1235400D0FE18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD1535EA19B1235400D0FE18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1535EB19B1235400D0FE18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD15360019B1235400D0FE18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD15360119B1235400D0FE18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD15360519B1235400D0FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7556a6c7-45ab-425a-8e36-f1e15d92a786";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD15360619B1235400D0FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "7556a6c7-45ab-425a-8e36-f1e15d92a786";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD15360819B1235400D0FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCAJudgeTImer/WCAJudgeTImer-Prefix.pch";
+				INFOPLIST_FILE = "WCAJudgeTImer/WCAJudgeTImer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7556a6c7-45ab-425a-8e36-f1e15d92a786";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD15360919B1235400D0FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCAJudgeTImer/WCAJudgeTImer-Prefix.pch";
+				INFOPLIST_FILE = "WCAJudgeTImer/WCAJudgeTImer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7556a6c7-45ab-425a-8e36-f1e15d92a786";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD15360B19B1235400D0FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WCAJudgeTImer.app/WCAJudgeTImer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCAJudgeTImer/WCAJudgeTImer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WCAJudgeTImerTests/WCAJudgeTImerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD15360C19B1235400D0FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WCAJudgeTImer.app/WCAJudgeTImer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCAJudgeTImer/WCAJudgeTImer-Prefix.pch";
+				INFOPLIST_FILE = "WCAJudgeTImerTests/WCAJudgeTImerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		ADB08BBA19B1362B0032916D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "7556a6c7-45ab-425a-8e36-f1e15d92a786";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		ADB08BBB19B1362B0032916D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Weston Mizumoto (PQK7MDT9QM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCAJudgeTImer/WCAJudgeTImer-Prefix.pch";
+				INFOPLIST_FILE = "WCAJudgeTImer/WCAJudgeTImer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7556a6c7-45ab-425a-8e36-f1e15d92a786";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		ADB08BBC19B1362B0032916D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WCAJudgeTImer.app/WCAJudgeTImer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCAJudgeTImer/WCAJudgeTImer-Prefix.pch";
+				INFOPLIST_FILE = "WCAJudgeTImerTests/WCAJudgeTImerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1535D019B1235400D0FE18 /* Build configuration list for PBXProject "WCAJudgeTImer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD15360519B1235400D0FE18 /* Debug */,
+				AD15360619B1235400D0FE18 /* Release */,
+				ADB08BBA19B1362B0032916D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD15360719B1235400D0FE18 /* Build configuration list for PBXNativeTarget "WCAJudgeTImer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD15360819B1235400D0FE18 /* Debug */,
+				AD15360919B1235400D0FE18 /* Release */,
+				ADB08BBB19B1362B0032916D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD15360A19B1235400D0FE18 /* Build configuration list for PBXNativeTarget "WCAJudgeTImerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD15360B19B1235400D0FE18 /* Debug */,
+				AD15360C19B1235400D0FE18 /* Release */,
+				ADB08BBC19B1362B0032916D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1535CD19B1235400D0FE18 /* Project object */;
+}
